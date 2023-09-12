@@ -10,7 +10,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Onboarding"
+          name="Onboard"
           component={Onboarding}
           options={{headerShown: false}}
         />
