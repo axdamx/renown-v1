@@ -40,7 +40,7 @@ const BottomTabNavigation = () => {
           headerShown: false,
           tabBarIcon: ({focused}) => (
             <IonIcon
-              name={focused ? 'home' : 'grid-outline'}
+              name={focused ? 'apps' : 'apps-outline'}
               size={26}
               color={focused ? COLORS.red : COLORS.gray}
             />
@@ -56,7 +56,7 @@ const BottomTabNavigation = () => {
           headerShown: false,
           tabBarIcon: ({focused}) => (
             <IonIcon
-              name={focused ? 'location' : 'grid-outline'}
+              name={focused ? 'location' : 'location-outline'}
               size={26}
               color={focused ? COLORS.red : COLORS.gray}
             />
@@ -90,7 +90,7 @@ const BottomTabNavigation = () => {
           headerShown: false,
           tabBarIcon: ({focused}) => (
             <IonIcon
-              name={focused ? 'chatbubble-ellipses' : 'grid-outline'}
+              name={focused ? 'person' : 'person-outline'}
               size={26}
               color={focused ? COLORS.red : COLORS.gray}
             />
